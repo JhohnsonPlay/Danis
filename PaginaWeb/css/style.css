@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(255, 249, 241);
+}
+
+#aside {
+    float: left;
+    position: static;
+}
+
+#menu {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+header {
+    font-size: 30px;
+}
+
+h1 {
+    float: left;
+    padding-left: 30%;
+    padding-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo {
+    text-align: left;
+    margin: 0;
+}
+
+.sub {
+    text-align: left;
+    margin-left: 5%;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-size: 20px;
+  }
+
+#n1 {
+    left: 15%;
+}
+#n2 {
+    left: 40%;
+}
+
+#n3 {
+    left: 60%;
+}
+
+
+  
+  li {
+    float: left;
+    position: relative;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: #666;
+    background-color: #ddd;
+  }
+
+  #img {
+      padding: 1em;
+      margin: 1em;
+  }
+
+article {
+    float: left;
+    max-width: 70%;
+    max-height: 1000px;
+    position: relative;
+}
+
+.article {
+    padding: 0 5em 5em 1em;
+    font-size: 30px;
+}
+
+.cuerpo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#izquierda {
+    position: static;
+
+}
+
+#derecha {
+    position: static;
+}
+
+aside {
+    float: left;
+    max-width: 100px;
+    max-height: 1000px;
+    position: relative;
+    padding-top: 2em;
+}
+
+.otro {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.aside{
+    max-width: 600px;
+    height: 200px;
+    z-index: 1;
+}
+
+footer {
+    float: center;
+    width: 100%;
+    background-color:black;
+    overflow: hidden;
+    display: block;
+    max-height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+.par {
+    float: left;
+    color: blanchedalmond;
+    padding-left: 200px;
+    margin: 15px;
+}
+
+.footer {
+    float: right;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px;
+    margin-right: 50px;
+    color: white;
+
+}
+

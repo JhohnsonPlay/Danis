@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 249, 241);
+}
+
+#bases1 {
+    position: relative;
+    text-align: center;
+    color: rgb(215, 136, 223);
+    left: 15%;
+}
+
+#thead th{
+    background: rgb(255, 255, 255);
+    text-align:center;
+    color: rgb(215, 136, 223);
+
+}
+
+
+
+tbody tr{
+    background-color: antiquewhite;
+    color: rgb(95, 95, 89);
+    text-align: center;
+}
